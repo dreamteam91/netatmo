@@ -3,9 +3,9 @@ import json
 def get_access_token():
     payload = {'grant_type': 'password',
            'username': "mc_cube@list.ru",
-           'password': "5YbFrKY8LYZPVZ3",
-           'client_id':"5c0fd0ee0d0e230b008bd3d8",
-           'client_secret': "YYj2XGghkVYBXJMQHmWnLlz4bvhqaEOE1Dg7V"
+           'password': "",
+           'client_id':"",
+           'client_secret': ""
            #'scope': 'read_camera'
            }
     response = requests.post("https://api.netatmo.com/oauth2/token", data=payload)
